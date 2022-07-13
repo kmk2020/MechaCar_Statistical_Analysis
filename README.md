@@ -47,4 +47,35 @@ Based on the variance of the suspension coils in the total summary, the suspensi
 
 ## Deliverable 3
 ### T-Tests on Suspension Coils
+Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
+t-test is used to compare the mean of one dataset to another under a few assumptions.
+There are two main forms of the t-test that we use: the one-sample t-test and the two-sample t-test. The one-sample t-test is used to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset. In other words, a one-sample t-test is used to test the following hypotheses:
+
+H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+
+The following snapshot represents the output of the analysis
+
+![image](https://user-images.githubusercontent.com/89704371/178810597-a01d5bdb-874c-41ac-8fba-144ea52279c8.png)
+ 
+### analysis of the output
+If p-value is lower than the significance level, you would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different.
+Assuming our significance level was the common 0.05 percent, our p-value is below our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+#### Lot 1
+The results of the t-test to test if the PSI mean for Lot1 is statistically different from the population mean of 1,500 pounds per square inch show that, at a 95% confidence level, the two means are not statistically different. The p-value of  1.568e-11 shows that the mean for Lot1 is exactly the same same as the population mean of 1500 PSI.
+
+![image](https://user-images.githubusercontent.com/89704371/178812328-5fac6f38-2eaf-41e0-b4d0-20b8926dc07c.png)
+
+
+#### Lot 2 
+The results of the t-test to test if the PSI mean for Lot2 is statistically different from the population mean of 1,500 pounds per square inch show that, at a 95% confidence level, the two means are not statistically different. Because the p-value of 0.0005911 is higher than the critical value of 0.05, the null hypothesis can be accepted in that there is no difference between the means of the PSI for the population and Lot2. The means within the 95% confidence range are between 1499.423 and 1500.977 PSI.
+
+![image](https://user-images.githubusercontent.com/89704371/178812409-6fc40e01-5f10-4ea4-a4a3-6837bdf29fdc.png)
+
+
+#### Lot 3
+The results of the t-test to test if the PSI mean for Lot3 is statistically different from the population mean of 1,500 pounds per square inch show that, at a 95% confidence level, the two means are statistically different. Because the p-value of 0.1589 is lower than the critical value of 0.05, the null hypothesis should be rejected in that there is a difference between the means of the PSI for the population and Lot3 and the true mean is not equal to 1500. The means within the 95% confidence range are between 1492.431 and 1499.849 PSI.
+
+![image](https://user-images.githubusercontent.com/89704371/178812457-56653f60-254c-4335-a8a7-cc8e05bba37a.png)
