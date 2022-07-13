@@ -96,11 +96,11 @@ A null hypothesis or an alternative hypothesis
 A statistical test is   to test the hypothesis
 #### Relevant metrics
 
-** Safety Feature Rating: Independent Variable
-** Current Price (Selling): Dependent Variable
-** Drive Package : Independent Variable
-** Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
-** Resale Value: Independent Variable
+Safety Feature Rating: Independent Variable 
+Current Price (Selling): Dependent Variable
+Drive Package : Independent Variable
+Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+Resale Value: Independent Variable
 
 Hypothesis: Null and Alternative
 After determining which factors are key for the MechaCar's genre:
