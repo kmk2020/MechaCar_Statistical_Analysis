@@ -23,3 +23,22 @@ To perform the linear regression, we utilized the lm() function and passed in al
 Below snapshot short displays the results
  
 ![image](https://user-images.githubusercontent.com/89704371/178800500-9f12d60f-2649-4a83-a30c-e2b413081839.png)
+
+#### Output Analysis
+1. The p-value of our linear regression analysis isp-Value: 5.35e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+2. The r-squared value for this out put model is 0.7149 which can be translated as to say that approx, over 70 % of all our mpg predictions many be determined suing the current model.
+3. A close observation of the output indicates that the **vehicle length**, and **vehicle ground clearance** are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset. This model does predict mpg .
+
+
+## Deliverable 2
+### Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.  Below snapshot displays tahe results of the analysis
+
+#### total_summary
+![image](https://user-images.githubusercontent.com/89704371/178804045-f6a3e394-f6ee-4a6a-b948-90fa03c81004.png)
+
+
+#### lot summary
+![image](https://user-images.githubusercontent.com/89704371/178803864-9960f943-8ba6-46ac-96ce-f205eb7de197.png)
+
+
